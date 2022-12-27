@@ -78,6 +78,7 @@ public class MovieTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldShowLimitAboveMaxTest() {
         MovieManager manager = new MovieManager();
